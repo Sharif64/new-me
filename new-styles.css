@@ -1,0 +1,168 @@
+/* shared styles */
+.btn-primary {
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    color: #005FAC;
+    padding: 20px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section styling */
+
+header {
+    padding-top: 200px;
+    padding-right: 180px;
+    padding-bottom: 160px;
+}
+
+.bg {
+    background-image: url('images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-title {
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.header-para {
+    color: white;
+    font-weight: 400px;
+    text-align: right;
+}
+
+/* body styling */
+
+main {
+    margin: 130px 220px;
+}
+
+.failure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.failure-des {
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.failure-para {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    list-style-position: outside;
+}
+
+.green {
+    color: palegreen;
+}
+
+/* plans styling */
+
+.my-plan {
+    margin-bottom: 130px;
+}
+
+.plans-title {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mini-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.card-para {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* mindset styling */
+
+.mindset {
+    background-image: url('images/gradient1.png'), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 450px;
+    padding-top: 30px;
+    padding-left: 60px;
+
+}
+
+.mindset-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+input {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+    padding-left: 20px;
+}
+
+.input{
+    margin-bottom: 16px;
+}
+
+.btn-bg{
+    background-color:#005FAC;
+    color: white;
+    font-size:14px;
+}
